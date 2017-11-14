@@ -1,0 +1,4 @@
+VBGROUP 5.0
+StartupProject=AutoRIDE.vbp
+Project=..\DLL\Sii4A32.vbp
+Project=..\Impresion\gnprintg\gnprintg.vbp

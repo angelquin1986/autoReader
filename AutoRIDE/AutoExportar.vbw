@@ -1,0 +1,11 @@
+frmMain = 88, 116, 850, 546, , 22, 29, 784, 459, C
+clsPlantilla = 110, 145, 872, 575, 
+modConst = 0, 0, 0, 0, C
+Module1 = 132, 174, 894, 604, 
+modSiiComun2 = 132, 174, 894, 604, C
+frmMiMsgBox = 0, 0, 0, 0, C, 66, 87, 828, 517, C
+modSiiComun = 110, 145, 872, 575, 
+frmLogin = 0, 0, 938, 338, , 88, 116, 850, 546, C
+frmCambiaClave = 66, 87, 828, 517, C, 110, 145, 872, 575, C
+modMensaje = 0, 0, 0, 0, C
+frmConfig = 132, 174, 1052, 604, Z, 154, 203, 942, 633, C

@@ -1,0 +1,11 @@
+frmMain = 50, 50, 763, 475, Z, 100, 100, 973, 535, C
+clsPlantilla = 175, 175, 781, 600, C
+modConst = 125, 125, 850, 550, C
+Module1 = 75, 75, 950, 346, C
+modSiiComun2 = 52, 52, 698, 468, C
+modSiiComun = 125, 125, 1000, 396, C
+modMensaje = 0, 0, 0, 0, C
+frmGNEnviaeMail = 0, 0, 0, 0, C, 50, 50, 923, 485, C
+clsCDOmail = 50, 50, 491, 475, C
+frmLogin = 100, 100, 975, 371, C, 75, 75, 948, 510, C
+frmCambiaClave = 0, 0, 0, 0, C, 25, 25, 898, 460, C

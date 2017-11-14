@@ -1,0 +1,38 @@
+Public Function IVKardexPTotal(bandReal As Boolean) As Currency
+    Dim t As Currency, i As Long, v As Currency
+
+    For i = 1 To CountIVKardex
+        If bandReal Then
+            v = IVKardex(i).PrecioRealTotal
+        Else
+            v = IVKardex(i).PrecioTotal
+        End If
+
+        'Redondea con el formato para P.Total          ***MAKOTO 13/feb/01 Mod.
+        t = t + MiCCur(Format$(v, Me.FormatoMoneda)) '***Antes, quitado para pruebas. Angel. 27/08/2003
+        't = t + v '***Agregado. 28/08/2003. Angel. No funciona bien 01/jun/04
+    Next i
+    IVKardexPTotal = t '***Antes, quitado para pruebas. Angel. 27/08/2003
+    '***Agregado. 28/08/2003. Angel. No funciona bien 01/jun/04
+    'IVKardexPTotal = MiCCur(Format$(t, Me.FormatoMoneda))
+
+
+''***SOLUCION PARA PROBLEMAS DE DESCUADRE ENTRE F6 Y F7. ***ANGEL. 29/JULIO/2004
+'    Dim t As Currency, i As Long, v As Currency
+'
+'    For i = 1 To CountIVKardex
+'        If bandReal Then
+'            v = IVKardex(i).PrecioRealTotal
+'            t = t + v '***Agregado. 28/08/2003. Angel. No funciona bien 01/jun/04
+'        Else
+'            v = IVKardex(i).PrecioTotal
+'            t = t + MiCCur(Format$(v, Me.FormatoMoneda)) '***Antes, quitado para pruebas. Angel. 27/08/2003
+'        End If
+'    Next i
+'
+'    If bandReal Then
+'        IVKardexPTotal = MiCCur(Format$(t, Me.FormatoMoneda)) '***Antes, quitado para pruebas. Angel. 27/08/2003
+'    Else
+'        IVKardexPTotal = t '***Antes, quitado para pruebas. Angel. 27/08/2003
+'    End If
+End Function

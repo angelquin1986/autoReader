@@ -1,0 +1,78 @@
+CodInventario	CodAlterno1	CodAlterno2	Descripcion	Marca	NumeroSerie	VidaUtil	TipoDepre	CostoResidual	uni med	% iva	Moneda	grupo 1	grupo 2	grupo 3	grupo 4	grupo 5
+2000001			NEW Camara Digital	Marca1000001	1000001	24	2	100				01	02			
+2000002			NEW Reloj Biometrico con memoria 	Marca1000002	1000002	18	0	180				01	02			
+2000003			NEW Muebles multiuso	Marca1000003	1000003	24	2					01	02			
+2000004			NEW Estante	Marca1000004	1000004	24	0					01	02			
+2000005			NEW Silla Giratoria contabilidad	Marca1000005	1000005	24	2					01	02			
+2000006			NEW Televisor Sony	Marca1000006	1000006	24	2					01	02			
+2000007			NEW Muebles estante	Marca1000007	1000007	24	2					01	02			
+2000008			NEW Estante Arquitectos	Marca1000008	1000008	24	2					01	02			
+2000009			NEW Multiescritorio	Marca1000009	1000009	24	2					01	02			
+2000010			NEW Mesa comedor	Marca1000010	1000010	24	2					01	02			
+2000011			NEW Mesa computador	Marca1000011	1000011	24	2					01	02			
+2000012			NEW Proyector Infocus	Marca1000012	1000012	24	2					01	02			
+2000013			NEW Estacion de trabajo	Marca1000013	1000013	24	2					01	02			
+2000014			NEW Papelera doble metalica	Marca1000014	1000014	24	2					01	02			
+2000015			NEW v	Marca1000015	1000015	24	2	0				01	02			
+2000016			NEW u	Marca1000016	1000016	24	2	0				01	02
+2000017			NEW uuu	Marca1000017	1000017	24	2					01	02
+2000018			NEW aa	Marca1000018	1000018	24	2					01	02
+2000019			NEW Sillas 	Marca1000019	1000019	24	2					01	02
+2000020			NEW xxx	Marca1000020	1000020	24	2					01	02
+2000021			NEW YY	Marca1000021	1000021	24	2					01	02
+2000022			NEW ZZZ	Marca1000022	1000022	24	2					01	02
+2000023			NEW www	Marca1000023	1000023	24	2	0				01	02
+2000024			NEW uu	Marca1000024	1000024	24	2					01	02
+2000025			NEW Mueble escritorio	Marca1000025	1000025	20	2	0				01	02
+2000026			NEW Mueble escritorio	Marca1000026	1000026	24	2					01	02
+2000027			NEW Silla Giratoria	Marca1000027	1000027	24	2					01	02
+2000028			NEW Mesa con rodillos	Marca1000028	1000028	24	2					01	02
+2000029			NEW Mueble recepcion de maletas	Marca1000029	1000029	24	2					01	02
+2000030			NEW Silla Giratoria	Marca1000030	1000030	24	2					01	02
+2000031			NEW Archivador	Marca1000031	1000031	24	2					01	02
+2000032			NEW Vehiculo	Marca1000032	1000032	120	2	5000				01	02
+2000033			NEW Vehiculo Operaciones	Marca1000033	1000033	120	2	5750				01	02
+2000034			NEW Computadora Contabilidad	Marca1000034	1000034	24	2					01	02
+2000035			NEW Computadora Operciones	Marca1000035	1000035	24	2					01	02
+2000036			NEW Impresora	Marca1000036	1000036	24	2					01	02
+2000037			NEW Computadora Servidor	Marca1000037	1000037	60	2	50				01	02
+2000038			NEW Impresora Tarjeta identificacion	Marca1000038	1000038	24	2					01	02
+2000039			NEW Computadora Arquitectos	Marca1000039	1000039	24	2					01	02
+2000040			NEW Computadora Secretaria	Marca1000040	1000040	24	2					01	02
+2000041			NEW Computadora Portatil HP	Marca1000041	1000041	24	2					01	02
+2000042			NEW Monitores Pantalla Plana	Marca1000042	1000042	24	2					01	02
+2000043			NEW Monitores Filtros	Marca1000043	1000043	24	2					01	02
+2000044			NEW Router	Marca1000044	1000044	24	2					01	02
+2000045			NEW Switch de 24 puertos	Marca1000045	1000045	24	2					01	02
+2000046			NEW Portatil PC CHIPS/3.0GB/512MB/HS80/DVD-C	Marca1000046	1000046	1	2					01	02
+2000047			NEW Monitor de anuncios	Marca1000047	1000047	1	2					01	02
+2000048			NEW Cinturon de Arnes	Marca1000048	1000048	1	2					01	02
+2000049			NEW Cinturon de herramientas	Marca1000049	1000049	1	2					01	02
+2000050			NEW Multimetro Digital	Marca1000050	1000050	1	2					01	02
+2000051			NEW Pinza voltamperimetrica	Marca1000051	1000051	1	2					01	02
+2000052			NEW Intellitone Pro Kit	Marca1000052	1000052	1	2					01	02
+2000053			NEW Microtelefono	Marca1000053	1000053	1	2					01	02
+2000054			NEW Blower	Marca1000054	1000054	1	2					01	02
+2000055			NEW Baños	Marca1000055	1000055	1	2					01	02
+2000056			NEW Radios Motorola portatil	Marca1000056	1000056	24	2					01	02
+2000057			NEW Fuente poder	Marca1000057	1000057	24	2					01	02
+2000058			NEW Antena Movil	Marca1000058	1000058	24	2					01	02
+2000059			NEW Dupuxor Sinclair	Marca1000059	1000059	24	2					01	02
+2000060			NEW Bateria de 120A	Marca1000060	1000060	24	2					01	02
+2000061			NEW Battery Revert	Marca1000061	1000061	24	2					01	02
+2000062			NEW Fuente de poder	Marca1000062	1000062	24	2					01	02
+2000063			NEW Antena VHF Vehiculos	Marca1000063	1000063	24	2					01	02
+2000064			NEW Radios Aeronautico	Marca1000064	1000064	1	2					01	02
+2000065			NEW Repetidora Motorola	Marca1000065	1000065	1	2					01	02
+2000066			NEW Protector	Marca1000066	1000066	1	2					01	02
+2000067			NEW Panel de Tonos	Marca1000067	1000067	1	2					01	02
+2000068			NEW Radios Motorola portatil 7150	Marca1000068	1000068	1	2					01	02
+2000069			NEW Radio Base movil	Marca1000069	1000069	1	2					01	02
+2000070			NEW Antena Base	Marca1000070	1000070	1	2					01	02
+2000071			NEW Antena Ganancia	Marca1000071	1000071	1	2					01	02
+2000072			NEW Radios Aeronuticos	Marca1000072	1000072	1	2					01	02
+2000073			NEW Antena VHF Aeronauticos	Marca1000073	1000073	1	2					01	02
+2000074			NEW Radio Pro-3100VHF	Marca1000074	1000074	1	2					01	02
+2000075			NEW Radio Motorola 45w	Marca1000075	1000075	1	2					01	02
+2000076			NEW Desmalezadora	Marca1000076	1000076	24	2					01	02
+2000077			NEW Postes Ordenadores	Marca1000077	1000077	24	2					01	02

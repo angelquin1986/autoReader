@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autorizacion>
+<codTipoTra>10</codTipoTra>
+<ruc>0100100101001</ruc>
+<numAut>0000000020</numAut>
+<fecha>01/04/2010</fecha>
+<detalles>
+  <detalle>
+<codDoc>7</codDoc>
+<estab>050</estab>
+<ptoEmi>001</ptoEmi>
+<inicio>0</inicio>
+  </detalle>
+  <detalle>
+<codDoc>7</codDoc>
+<estab>051</estab>
+<ptoEmi>001</ptoEmi>
+<inicio>0</inicio>
+  </detalle>
+  <detalle>
+<codDoc>7</codDoc>
+<estab>052</estab>
+<ptoEmi>001</ptoEmi>
+<inicio>0</inicio>
+  </detalle>
+  </detalles>
+</autorizacion>

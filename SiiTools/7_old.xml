@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autorizacion>
+<codTipoTra>7</codTipoTra>
+<ruc>0190341739001</ruc>
+<fecha>29/04/2010</fecha>
+<autOld>5555555555</autOld>
+<autNew>6666666666</autNew>
+<detalles>
+  <detalle>
+<codDoc>1</codDoc>
+<estab>200</estab>
+<ptoEmi>201</ptoEmi>
+<finOld>2</finOld>
+<iniNew>0</iniNew>
+  </detalle>
+  <detalle>
+<codDoc>1</codDoc>
+<estab>201</estab>
+<ptoEmi>301</ptoEmi>
+<finOld>2</finOld>
+<iniNew>0</iniNew>
+  </detalle>
+  <detalle>
+<codDoc>1</codDoc>
+<estab>203</estab>
+<ptoEmi>401</ptoEmi>
+<finOld>0</finOld>
+<iniNew>0</iniNew>
+  </detalle>
+  <detalle>
+<codDoc>2</codDoc>
+<estab>200</estab>
+<ptoEmi>201</ptoEmi>
+<finOld>0</finOld>
+<iniNew>0</iniNew>
+  </detalle>
+  <detalle>
+<codDoc>2</codDoc>
+<estab>201</estab>
+<ptoEmi>301</ptoEmi>
+<finOld>0</finOld>
+<iniNew>0</iniNew>
+  </detalle>
+  <detalle>
+<codDoc>2</codDoc>
+<estab>203</estab>
+<ptoEmi>401</ptoEmi>
+<finOld>0</finOld>
+<iniNew>0</iniNew>
+  </detalle>
+  <detalle>
+<codDoc>7</codDoc>
+<estab>200</estab>
+<ptoEmi>201</ptoEmi>
+<finOld>0</finOld>
+<iniNew>0</iniNew>
+  </detalle>
+  <detalle>
+<codDoc>7</codDoc>
+<estab>201</estab>
+<ptoEmi>301</ptoEmi>
+<finOld>0</finOld>
+<iniNew>0</iniNew>
+  </detalle>
+  <detalle>
+<codDoc>7</codDoc>
+<estab>203</estab>
+<ptoEmi>401</ptoEmi>
+<finOld>0</finOld>
+<iniNew>0</iniNew>
+  </detalle>
+  </detalles>
+</autorizacion>

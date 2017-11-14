@@ -1,0 +1,78 @@
+VERSION 5.00
+Object = "{831FDD16-0C5C-11D2-A9FC-0000F8754DA1}#2.1#0"; "mscomctl.ocx"
+Begin VB.Form frmTotalVentas 
+   Caption         =   "Actualizar Total  de Ventas"
+   ClientHeight    =   4965
+   ClientLeft      =   60
+   ClientTop       =   405
+   ClientWidth     =   7575
+   KeyPreview      =   -1  'True
+   LinkTopic       =   "Form1"
+   MDIChild        =   -1  'True
+   ScaleHeight     =   4965
+   ScaleWidth      =   7575
+   WindowState     =   2  'Maximized
+   Begin MSComctlLib.Toolbar tlb1 
+      Align           =   1  'Align Top
+      Height          =   420
+      Left            =   0
+      TabIndex        =   0
+      Top             =   0
+      Width           =   7575
+      _ExtentX        =   13361
+      _ExtentY        =   741
+      ButtonWidth     =   609
+      ButtonHeight    =   582
+      Appearance      =   1
+      ImageList       =   "img1"
+      _Version        =   393216
+      BeginProperty Buttons {66833FE8-8583-11D1-B16A-00C0F0283628} 
+         NumButtons      =   3
+         BeginProperty Button1 {66833FEA-8583-11D1-B16A-00C0F0283628} 
+            Style           =   3
+         EndProperty
+         BeginProperty Button2 {66833FEA-8583-11D1-B16A-00C0F0283628} 
+            Key             =   "Grabar"
+            Object.ToolTipText     =   "Grabar - F3"
+            ImageIndex      =   1
+         EndProperty
+         BeginProperty Button3 {66833FEA-8583-11D1-B16A-00C0F0283628} 
+            Key             =   "Buscar"
+            Object.ToolTipText     =   "Buscar - F5"
+            ImageIndex      =   2
+         EndProperty
+      EndProperty
+   End
+   Begin MSComctlLib.ImageList img1 
+      Left            =   4320
+      Top             =   3120
+      _ExtentX        =   1005
+      _ExtentY        =   1005
+      BackColor       =   -2147483643
+      ImageWidth      =   16
+      ImageHeight     =   16
+      MaskColor       =   12632256
+      _Version        =   393216
+      BeginProperty Images {2C247F25-8591-11D1-B16A-00C0F0283628} 
+         NumListImages   =   2
+         BeginProperty ListImage1 {2C247F27-8591-11D1-B16A-00C0F0283628} 
+            Picture         =   "frmTotalVentas.frx":0000
+            Key             =   ""
+         EndProperty
+         BeginProperty ListImage2 {2C247F27-8591-11D1-B16A-00C0F0283628} 
+            Picture         =   "frmTotalVentas.frx":0120
+            Key             =   ""
+         EndProperty
+      EndProperty
+   End
+   Begin VB.PictureBox grd 
+      BackColor       =   &H000000FF&
+      Height          =   1000
+      Left            =   0
+      ScaleHeight     =   945
+      ScaleWidth      =   945
+      TabIndex        =   1
+      Top             =   0
+      Width           =   1000
+   End
+End

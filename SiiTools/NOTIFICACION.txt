@@ -1,0 +1,69 @@
+'Este es el formato para el Documento de Factura para LAroTprint 06/09/04
+<FORMATO Nombre="NOTIFICACION";TamañoPapel=A4;TipoLetra="Arial";TamañoLetra=11;MargenSup=10;MargenInf=5;MargenDer=10;MargenIzq=17> 
+
+'	<CAMPO CodCampo=IMAGEN1;PARAMETROS=LOGOtipo.JPG;posX=1000;posY=50;Ancho=50;alto=25/>
+
+	<CAMPO CodCampo="OFICIO ADF-CAR-";posX= 140;posY=10;Ancho=100;TamañoLetra=12;LETRANEGRITA=SI/>
+	<CAMPO CodCampo=NUMNOT;posX= 177;posY=10;Ancho=100;TamañoLetra=12;LETRANEGRITA=SI/>
+	<CAMPO CodCampo="-2014";posX= 185;posY=10;Ancho=100;TamañoLetra=12;LETRANEGRITA=SI/>
+	<CAMPO CodCampo=DESCNOTI;posX=155;posY=15;Ancho=100;TamañoLetra=12;LETRANEGRITA=SI/>
+
+	<CAMPO CodCampo="Cuenca,";posX=10;posY=28;Ancho=100;LETRANEGRITA=SI/>
+	<CAMPO CodCampo=FECHANOTI;posX=28;posY=28;Ancho=10;FormatString="dd"/>
+	<CAMPO CodCampo="de";posX=33;posY=28;Ancho=100/>
+	<CAMPO CodCampo=FECHANOTI;posX=39;posY=28;Ancho=30;FormatString="mmmm"/>
+
+	<CAMPO CodCampo="del";posX=62;posY=28;Ancho=100/>
+	<CAMPO CodCampo=FECHANOTI;posX=69;posY=28;Ancho=10;FormatString="yyyy"/>
+
+
+	<CAMPO CodCampo="Señor (a) (es)";posX=10;posY=40;Ancho=100;LETRANEGRITA=SI/>
+
+	<CAMPO CodCampo=NOMCLINOTI;posX=10;posY=45;Ancho=100;LETRANEGRITA=SI/>
+	<CAMPO CodCampo=NOMCLIALTNOTI;posX=10;posY=50;Ancho=100;LETRANEGRITA=SI/>
+	<CAMPO CodCampo="Presente.";posX=10;posY=55;Ancho=100;LETRANEGRITA=SI/>
+
+	<CAMPO CodCampo="De mi consideracion:";posX=10;posY=70;Ancho=100;LETRANEGRITA=SI/>
+
+	<CAMPO CodCampo="La corporación Aeroportuaria de Cuenca, mediante el Departamento de Cartera, notifica a";posX=10;posY=90;Ancho=200/>
+	<CAMPO CodCampo="usted que se encuentra con pagos vencidos los que son detallados a continuacion.";posX=10;posY=95;Ancho=200/>
+	
+	
+
+
+	<SECCION Codigo=NOTIFICACION;PosX=10;posY=120;Ancho=140;alto=17;altofila=SIMPLE;tipoLetra="Arial";TamañoLetra=8;Bordes=CUADVERT;Cuadro=SI;Titulo="Cuadro Cartera Vencida">
+		'<COLUMNA Titulo= "Fecha";CodCampo=FECHANOTI;Ancho=60;Alineacion=IZQUIERDA/>		
+                <COLUMNA Titulo= "Documento";CodCampo=TRANSNOTI;Ancho=20;Alineacion=DERECHA/>
+                <COLUMNA Titulo= "Saldo";CodCampo=VALORNOTI;Ancho=20;Alineacion=DERECHA;FormatString="#,#.00"/>
+                <COLUMNA Titulo= "Fecha Emi. ";CodCampo=FECHAEMINOTI;Ancho=20;Alineacion=DERECHA;FormatString="dd/mm/yyyy"/>
+                <COLUMNA Titulo= "Fecha Venci. ";CodCampo=FECHAVENCINOTI;Ancho=20;Alineacion=DERECHA;FormatString="dd/mm/yyyy"/>
+                <COLUMNA Titulo= "Mes Vencido. ";CodCampo=MESESVENCIDOS;Ancho=25;Alineacion=DERECHA/>
+		<COLUMNA Titulo= "Día Vencido. ";CodCampo=DIASVENCIDOS;Ancho=20;Alineacion=DERECHA/>
+                <COLUMNA Titulo= "Interes. ";CodCampo=VALORINT;Ancho=20;Alineacion=DERECHA;FormatString="#,0.00"/>
+                <COLUMNA Titulo= "A pagar ";CodCampo=VALORFINAL;Ancho=20;Alineacion=DERECHA;FormatString="#,0.00"/>
+        </SECCION>
+	
+
+	<CAMPO CodCampo="Por tal motivo solicitamos a usted (es) la cancelación en forma inmediata de los valores adeudados,";posX=10;posY=150;Ancho=200/>
+	<CAMPO CodCampo="considerando que somos una Corporación que manejamos Bienes Públicos no es posible los retrasos.";posX=10;posY=155;Ancho=200/>
+	'<CAMPO CodCampo="Dpto. Legal de nuestra institución.";posX=10;posY=160;Ancho=200/>
+
+	<CAMPO CodCampo="Segura de contar con su colaboración y evitar inconvenientes, anticipo mi agradecimiento y";posX=10;posY=175;Ancho=200/>
+	<CAMPO CodCampo="Suscribo";posX=10;posY=180;Ancho=200/>
+
+
+	<CAMPO CodCampo="Atentamente,";posX=10;posY=220;Ancho=200/>
+
+
+	<CAMPO CodCampo="Catalina Alvarez Cañizares";posX=10;posY=240;Ancho=200/>
+	<CAMPO CodCampo="ASISTENTE DE CARTERA";posX=10;posY=245;Ancho=200;letranegrita=si/>
+
+
+	<CAMPO CodCampo="Ing.Yolanda Méndez Calderón";posX=110;posY=240;Ancho=200/>
+	<CAMPO CodCampo="JEFE ADMINISTRATIVO FINANCIERO";posX=110;posY=245;Ancho=200;letranegrita=si/>
+
+
+	
+	
+	
+</FORMATO>
